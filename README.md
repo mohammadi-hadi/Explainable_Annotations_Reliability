@@ -2,6 +2,8 @@
 
 ![Model Struture](https://github.com/hadimh93/Explainable_Annotations_Reliability/blob/main/reports/figures/model.pdf?raw=true)
 
+[View Model Structure](https://github.com/hadimh93/Explainable_Annotations_Reliability/blob/main/reports/figures/model.pdf)
+
 
 The template has been customized for the project "Assessing Annotator Reliability in the Context of Model Predictions and Explanations". It's a structured yet flexible framework for project management and documentation, designed to facilitate research in machine learning model validation.
 
