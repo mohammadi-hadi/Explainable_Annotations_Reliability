@@ -1,6 +1,8 @@
 # Assessing Reliability of Annotations in the Context of Model Predictions and Explanations
 
-![Model Struture](https://github.com/hadimh93/Explainable_Annotations_Reliability/blob/main/reports/figures/model.pdf?raw=true)
+![Model Struture](https://github.com/hadimh93/Explainable_Annotations_Reliability/blob/main/reports/figures/model.jpg?raw=true)
+
+
 
 [View Model Structure](https://github.com/hadimh93/Explainable_Annotations_Reliability/blob/main/reports/figures/model.pdf)
 
