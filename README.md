@@ -1,5 +1,6 @@
-# Assessing Reliability of Annotations in the Context of Model Predictions and Explanations![image]([https://github.com/hadimh93/Explainable_Annotations_Reliability/assets/50410241/82bb2b6a-9e58-439b-9937-c0fd241a61d5](https://github.com/hadimh93/Explainable_Annotations_Reliability/blob/main/reports/figures/model.pdf))
+# Assessing Reliability of Annotations in the Context of Model Predictions and Explanations
 
+![Model Struture]([https://github.com/hadimh93/Explainable_Annotations_Reliability/assets/50410241/82bb2b6a-9e58-439b-9937-c0fd241a61d5](https://github.com/hadimh93/Explainable_Annotations_Reliability/blob/main/reports/figures/model.pdf))
 
 # 
 
