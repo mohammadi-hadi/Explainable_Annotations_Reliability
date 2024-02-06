@@ -12,7 +12,7 @@ The template has been customized for the project "Assessing Annotator Reliabilit
 ## Contents
 
 - **README.md**: Outlines the project's aim, research methods, and anticipated outcomes, providing a comprehensive introduction to the project.
-- **LICENSE**: Under the **Mozilla Public License**, ensuring open use and modification.
+- **LICENSE**: Under the **MIT License**, ensuring open use and modification.
 - **docs/**: Comprehensive documentation, including methodology, annotator training procedures, and analysis of the model's explanations.
 - **docs/bibliography.bib**: Curated bibliographic references relevant to the project's focus.
 - **data/**: Placeholder for datasets like SemEval-2023 Task 10, ensuring data integrity and control.
@@ -57,6 +57,6 @@ This template is specifically tailored for "Assessing Annotator Reliability in t
 ## Community Engagement
 
 - Follow the outlined Code of Conduct for a respectful collaboration environment.
-- The project adheres to the **Mozilla Public License**.
+- The project adheres to the **MIT License**.
 
  
