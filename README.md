@@ -1,4 +1,4 @@
-# Assessing Reliability of Annotations in the Context of Model Predictions and Explanations
+# Assessing the Reliability of LLMs Annotations in the Context of Demographic Bias and Model Explanation
 
 ![Model Struture](https://github.com/hadimh93/Explainable_Annotations_Reliability/blob/main/reports/figures/model.jpg?raw=true)
 
