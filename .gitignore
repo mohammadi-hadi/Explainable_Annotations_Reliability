@@ -1,3 +1,8 @@
+# AI/IDE Configuration (must exclude)
+CLAUDE.md
+.claude/
+.serena/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
