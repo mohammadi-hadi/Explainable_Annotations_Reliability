@@ -1,45 +1,100 @@
-# Assessing the Reliability of LLMs Annotations in the Context of Demographic Bias and Model Explanation
+<div align="center">
 
-![Model Struture](https://github.com/hadimh93/Explainable_Annotations_Reliability/blob/main/reports/figures/model.jpg?raw=true)
+# Explainable Annotations Reliability
 
+### Assessing the Reliability of LLM Annotations in the Context of Demographic Bias
 
-[View Model Structure](https://github.com/hadimh93/Explainable_Annotations_Reliability/blob/main/reports/figures/model.pdf)
+[![GeBNLP @ ACL 2025](https://img.shields.io/badge/GeBNLP%40ACL-2025-green.svg)](https://aclanthology.org/2025.gebnlp-1.9/)
+[![arXiv](https://img.shields.io/badge/arXiv-2507.13138-b31b1b.svg)](https://arxiv.org/abs/2507.13138)
+[![DOI](https://img.shields.io/badge/DOI-10.18653%2Fv1%2F2025.gebnlp--1.9-blue.svg)](https://doi.org/10.18653/v1/2025.gebnlp-1.9)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
+*Investigating LLM annotation reliability in the context of demographic bias and model explanation*
 
-The Repository has been made for the project "Assessing Annotator Reliability in the Context of Model Predictions and Explanations". It's a structured yet flexible framework for project management and documentation, designed to facilitate next progress.
+[Paper](https://aclanthology.org/2025.gebnlp-1.9/) • [arXiv](https://arxiv.org/abs/2507.13138) • [Website](https://mohammadi.cv)
 
-## Contents
+---
 
-- **README.md**: Outlines the project's aim, research methods, and anticipated outcomes, providing a comprehensive introduction to the project.
-- **LICENSE**: Under the **MIT License**, ensuring open use and modification.
-- **docs/**: Comprehensive documentation, including methodology, annotator training procedures, and analysis of the model's explanations.
-- **docs/bibliography.bib**: Curated bibliographic references relevant to the project's focus.
-- **data/**: Placeholder for datasets like SemEval-2023 Task 10 and 11, ensuring data integrity and control.
-- **src/**: Source code storage, particularly for Python scripts used in analysis and model evaluation.
-- **notebooks/**: For Jupyter notebooks used in data analysis, model evaluation, and visualizations, integrated into the documentation.
-- **reports/**: for the different reports that will provided during the project progress.
+</div>
 
-## Usage
+## Paper
 
-- 🛠️ **Standardized Structure**: Encourages consistent project and coding standards.
-- ⏳ **Time Efficiency**: Reduces setup time, allowing more focus on core research.
-- 🚀 **Ease of Onboarding**: Simplifies the process for new team members.
-- 🎨 **Adaptability**: Can be modified to suit various machine learning research needs.
-- 🤝 **Community Collaboration**: Promotes wider community engagement and contributions.
-- 🔄 **Version Control**: Fully integrated with Git for effective change management.
-- 📖 **Detailed Documentation**: Essential for understanding and replicating the research.
-- ✍️ **Evolving Framework**: Adapts to ongoing research and technological changes.
+| | |
+|---|---|
+| **Title** | Assessing the Reliability of LLMs Annotations in the Context of Demographic Bias and Model Explanation |
+| **Authors** | Hadi Mohammadi, Tina Shahedi, Pablo Mosteiro, Massimo Poesio, Ayoub Bagheri, Anastasia Giachanou |
+| **Affiliation** | Utrecht University, Queen Mary University of London |
+| **Venue** | GeBNLP 2025 (6th Workshop on Gender Bias in NLP) |
+| **DOI** | [10.18653/v1/2025.gebnlp-1.9](https://doi.org/10.18653/v1/2025.gebnlp-1.9) |
+| **URL** | [ACL Anthology](https://aclanthology.org/2025.gebnlp-1.9/) |
 
+## Overview
 
-### Content Management
+This repository contains the code and materials for our research on assessing annotator reliability in the context of model predictions and explanations. We investigate how LLM-generated annotations compare to human annotations, particularly in the presence of demographic bias.
 
-- Organize your documentation via the docs/_toc.yml.
-- Include dependencies in environment.yml.
-- Use Jupyter Notebooks for showcasing data analysis and findings.
+![Model Structure](https://github.com/hadimh93/Explainable_Annotations_Reliability/blob/main/reports/figures/model.jpg?raw=true)
 
-## Community Engagement
+## Key Contributions
 
-- Follow the outlined Code of Conduct for a respectful collaboration environment.
-- The project adheres to the **MIT License**.
+- Analysis of LLM annotation reliability compared to human annotators
+- Investigation of demographic bias in annotation tasks
+- Framework for assessing model explanations in annotation contexts
+- Evaluation using SemEval-2023 Task 10 and 11 datasets
 
- 
+## Repository Structure
+
+```
+Explainable_Annotations_Reliability/
+├── README.md               # This file
+├── LICENSE                 # MIT License
+├── docs/                   # Documentation and methodology
+│   └── bibliography.bib    # Bibliographic references
+├── data/                   # Datasets (SemEval-2023 Task 10/11)
+├── src/                    # Python source code
+├── notebooks/              # Jupyter notebooks for analysis
+└── reports/                # Project reports and figures
+    └── figures/            # Visualizations
+```
+
+## Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/mohammadi-hadi/Explainable_Annotations_Reliability.git
+cd Explainable_Annotations_Reliability
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run analysis notebooks
+jupyter notebook notebooks/
+```
+
+## Citation
+
+```bibtex
+@inproceedings{mohammadi2025assessing,
+  title={Assessing the Reliability of LLMs Annotations in the Context of Demographic Bias and Model Explanation},
+  author={Mohammadi, Hadi and Shahedi, Tina and Mosteiro, Pablo and Poesio, Massimo and Bagheri, Ayoub and Giachanou, Anastasia},
+  booktitle={Proceedings of the 6th Workshop on Gender Bias in Natural Language Processing (GeBNLP)},
+  year={2025},
+  publisher={Association for Computational Linguistics},
+  doi={10.18653/v1/2025.gebnlp-1.9},
+  url={https://aclanthology.org/2025.gebnlp-1.9/}
+}
+```
+
+## Related Work
+
+This research is part of the PhD thesis "From Tokens to Thoughts: Explainable NLP for Understanding Large Language Models" by Hadi Mohammadi at Utrecht University (2025).
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
+
+## Contact
+
+- **Hadi Mohammadi** - Utrecht University
+- Email: [h.mohammadi@uu.nl](mailto:h.mohammadi@uu.nl)
+- Website: [mohammadi.cv](https://mohammadi.cv)
