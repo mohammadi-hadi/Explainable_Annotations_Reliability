@@ -1,0 +1,71 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite both the paper and this software archive."
+title: "Assessing the Reliability of LLM Annotations in the Context of Demographic Bias and Model Explanation"
+type: software
+version: "v1.0-thesis"
+date-released: "2026-05-08"
+doi: "10.5281/zenodo.20090480"
+license: MIT
+repository-code: "https://github.com/mohammadi-hadi/Explainable_Annotations_Reliability"
+authors:
+  - given-names: "Hadi"
+    family-names: "Mohammadi"
+    affiliation: "Utrecht University"
+  - given-names: "Tina"
+    family-names: "Shahedi"
+    affiliation: "Utrecht University"
+  - given-names: "Pablo"
+    family-names: "Mosteiro"
+    affiliation: "Utrecht University"
+  - given-names: "Massimo"
+    family-names: "Poesio"
+    affiliation: "Utrecht University"
+  - given-names: "Robert A."
+    family-names: "Bagheri"
+    affiliation: "Utrecht University"
+  - given-names: "Anastasia"
+    family-names: "Giachanou"
+    affiliation: "Utrecht University"
+keywords:
+  - "annotation reliability"
+  - "explainable AI"
+  - "SHAP"
+  - "LLM annotation"
+  - "demographic bias"
+  - "persona prompting"
+abstract: >-
+  Annotation reliability shapes downstream NLP systems, but it is unclear
+  how much of the disagreement in labels comes from annotator demographics
+  versus from the content itself. This work compares human annotators of
+  varied demographics against demographically persona-prompted LLMs, using
+  SHAP to attribute label decisions to specific text spans. Across the
+  studied tasks, content-driven explanations dominated demographic
+  effects: text content was the primary driver of labels, and content-
+  aware SHAP guidance was more effective for steering LLM annotators than
+  persona prompting.
+preferred-citation:
+  type: conference-paper
+  title: "Assessing the Reliability of LLM Annotations in the Context of Demographic Bias and Model Explanation"
+  year: 2025
+  conference:
+    name: "Workshop on Gender Bias in Natural Language Processing (GeBNLP), ACL 2025"
+  doi: "10.18653/v1/2025.gebnlp-1.9"
+  authors:
+    - given-names: "Hadi"
+      family-names: "Mohammadi"
+      affiliation: "Utrecht University"
+    - given-names: "Tina"
+      family-names: "Shahedi"
+      affiliation: "Utrecht University"
+    - given-names: "Pablo"
+      family-names: "Mosteiro"
+      affiliation: "Utrecht University"
+    - given-names: "Massimo"
+      family-names: "Poesio"
+      affiliation: "Utrecht University"
+    - given-names: "Robert A."
+      family-names: "Bagheri"
+      affiliation: "Utrecht University"
+    - given-names: "Anastasia"
+      family-names: "Giachanou"
+      affiliation: "Utrecht University"
