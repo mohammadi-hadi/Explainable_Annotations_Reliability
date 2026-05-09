@@ -3,8 +3,7 @@ message: "If you use this code or data, please cite both the paper and this soft
 title: "Assessing the Reliability of LLM Annotations in the Context of Demographic Bias and Model Explanation"
 type: software
 version: "v1.0-thesis"
-date-released: "2026-05-08"
-doi: "10.5281/zenodo.20090480"
+date-released: "2026-05-09"
 license: MIT
 repository-code: "https://github.com/mohammadi-hadi/Explainable_Annotations_Reliability"
 authors:
