@@ -2,7 +2,7 @@
 
 # Benefits of Explainable NLP in the Annotation Process
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20090480.svg)](https://doi.org/10.5281/zenodo.20090480)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20091840.svg)](https://doi.org/10.5281/zenodo.20091840)
 [![GeBNLP @ ACL 2025](https://img.shields.io/badge/GeBNLP%20%40%20ACL%202025-blue.svg)](https://doi.org/10.18653/v1/2025.gebnlp-1.9)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -19,7 +19,7 @@
 | **Affiliation**  | Utrecht University, The Netherlands |
 | **Venue**        | Workshop on Gender Bias in Natural Language Processing (GeBNLP), ACL 2025, pp. 92--104 |
 | **DOI (paper)**  | [10.18653/v1/2025.gebnlp-1.9](https://doi.org/10.18653/v1/2025.gebnlp-1.9) |
-| **Code archive** | [10.5281/zenodo.20090480](https://doi.org/10.5281/zenodo.20090480) (this repository, snapshot v1.0-thesis) |
+| **Code archive** | [10.5281/zenodo.20091840](https://doi.org/10.5281/zenodo.20091840) (this repository, snapshot v1.0-thesis) |
 
 > *Hadi Mohammadi and Tina Shahedi contributed equally to this work.*
 
@@ -49,8 +49,8 @@ If you use this code or data, please cite **both** the paper and this code archi
   year      = {2026},
   publisher = {Zenodo},
   version   = {v1.0-thesis},
-  doi       = {10.5281/zenodo.20090480},
-  url       = {https://doi.org/10.5281/zenodo.20090480}
+  doi       = {10.5281/zenodo.20091840},
+  url       = {https://doi.org/10.5281/zenodo.20091840}
 }
 ```
 
