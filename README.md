@@ -76,8 +76,6 @@ Explainable_Annotations_Reliability/
 ├── README.md
 ├── LICENSE
 ├── CITATION.cff
-├── 01_manuscript/
-│   └── paper.pdf                       # Published paper
 ├── 02_materials/
 │   └── README.md                       # Annotation guideline references
 ├── 03_raw_data/
