@@ -1,4 +1,4 @@
-# Preprocessing - Chapter 6
+# Preprocessing - Chapter 5
 
 ## Overview
 
@@ -26,4 +26,4 @@ This folder documents the preprocessing steps for the annotation reliability stu
 
 ## Methodology
 
-See `preprocessing_methodology.md` in this folder for the detailed pipeline. The published analysis is described in `01_manuscript/paper.pdf`.
+See `preprocessing_methodology.md` in this folder for the detailed pipeline. The published analysis is described in the published paper (citation in the main README).

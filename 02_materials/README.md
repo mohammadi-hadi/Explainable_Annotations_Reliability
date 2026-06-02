@@ -1,4 +1,4 @@
-# Study Materials - Chapter 6
+# Study Materials - Chapter 5
 
 ## Overview
 

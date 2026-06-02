@@ -1,4 +1,4 @@
-# Chapter 6: Processed Data
+# Chapter 5: Processed Data
 
 ## Annotation Reliability in Subjective NLP Tasks
 
@@ -14,7 +14,7 @@ The analysis produces intermediate and final processed datasets stored in memory
 To reproduce the processed data:
 1. Install Python dependencies: `pip install -r 06_analysis/requirements.txt`
 2. Follow the preprocessing pipeline described in `04_preprocessing/preprocessing_methodology.md`.
-3. Apply the analysis described in `01_manuscript/paper.pdf`.
+3. Apply the analysis described in the published paper (citation in the main README).
 
 ### Output Locations
 

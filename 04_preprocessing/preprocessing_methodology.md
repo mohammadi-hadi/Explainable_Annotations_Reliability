@@ -1,4 +1,4 @@
-# Preprocessing Methodology - Chapter 06: Annotation Reliability
+# Preprocessing Methodology - Chapter 5: Annotation Reliability
 
 ## Overview
 This chapter investigates the reliability of LLM annotations for detecting online sexism, comparing LLM-generated labels against human annotations.
@@ -43,7 +43,7 @@ scikit-learn>=0.24.0
 ## Reproducibility
 To reproduce the analysis:
 1. Obtain the SemEval-2023 Task 10 and Task 11 data via the official task channels.
-2. Follow the methodology described in `01_manuscript/paper.pdf`.
+2. Follow the methodology described in the published paper (citation in the main README).
 3. Analysis outputs and figures are documented in `05_processed_data/` and `06_analysis/reports/`.
 
 ## Ethics Note

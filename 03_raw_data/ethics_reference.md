@@ -1,4 +1,4 @@
-# Data Ethics Reference - Chapter 6
+# Data Ethics Reference - Chapter 5
 
 ## Data Sources
 
