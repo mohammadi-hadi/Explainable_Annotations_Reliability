@@ -58,16 +58,17 @@ If you use this code or data, please cite **both** the paper and this code archi
 
 ## Overview
 
-This repository accompanies the GeBNLP 2025 paper on assessing the reliability of LLM annotations under demographic bias. It compares LLM-generated annotations with human annotations on SemEval-2023 Task 10 and Task 11 data, and uses SHAP to attribute label decisions to specific text spans.
+This repository accompanies the GeBNLP 2025 paper on assessing the reliability of LLM annotations under demographic bias. Using the EXIST 2024 sexism-detection dataset (English and Spanish tweets), it quantifies how annotator demographics relate to labelling with a Generalized Linear Mixed Model, compares LLM-generated annotations with human annotations under several persona-prompting scenarios, and uses SHAP to attribute label decisions to specific text spans.
 
 ![Model Structure](06_analysis/reports/figures/model.jpg)
 
 ## Key Contributions
 
+- A Generalized Linear Mixed Model quantifying how annotator demographics relate to sexism labels (demographics explain ~8% of the variance; tweet content dominates)
 - Analysis of LLM annotation reliability compared to human annotators
 - Investigation of demographic bias in annotation tasks
 - Framework for assessing model explanations in annotation contexts
-- Evaluation using SemEval-2023 Task 10 and 11 datasets
+- Evaluation on the EXIST 2024 sexism-detection dataset (English and Spanish)
 
 ## Repository Structure
 
@@ -76,8 +77,6 @@ Explainable_Annotations_Reliability/
 ├── README.md
 ├── LICENSE
 ├── CITATION.cff
-├── 02_materials/
-│   └── README.md                       # Annotation guideline references
 ├── 03_raw_data/
 │   └── ethics_reference.md             # Data sources and ethics
 ├── 04_preprocessing/
@@ -87,7 +86,17 @@ Explainable_Annotations_Reliability/
 │   └── README.md                       # Output data documentation
 └── 06_analysis/
     ├── prompts.py                      # GenAI / GenP / GenXAI / GenPXAI prompt templates
+    ├── run_annotation_scenarios.py     # SHAP-guided, persona-prompted annotation runner
     ├── requirements.txt                # Python dependencies
+    ├── statistical_models/             # R mixed-effects analysis (GLMM) + agreement tests
+    │   ├── README.md
+    │   ├── glmm_demographic_effects_bilingual.R   # primary GLMM (EN+ES)
+    │   ├── glmm_demographic_effects_english.R     # English GLMM + Fleiss' kappa
+    │   ├── glmm_demographic_effects_spanish.R     # Spanish GLMM
+    │   ├── agreement_demographic_tests.R          # chi-square / Fisher tests
+    │   ├── R_requirements.txt
+    │   └── data/
+    │       └── demographic_combinations.csv       # 56 demographic combinations (aggregate)
     └── reports/
         └── figures/
             ├── model.jpg               # Architecture figure
@@ -96,12 +105,11 @@ Explainable_Annotations_Reliability/
 
 ## Data Sources
 
-This study uses publicly available shared-task data:
+This study uses the **EXIST 2024** shared-task dataset (Plaza et al., 2024): 6,920 English and Spanish tweets, each annotated by six individuals who reported their demographics.
 
-- **SemEval-2023 Task 10**: Explainable Detection of Online Sexism (EDOS) — https://codalab.lisn.upsaclay.fr/competitions/7124
-- **SemEval-2023 Task 11**: Learning with Disagreements (LeWiDi) — https://le-wi-di.github.io/
+- **EXIST 2024**: sEXism Identification in Social neTworks — https://nlp.uned.es/exist2024/
 
-See `03_raw_data/ethics_reference.md` for access terms and ethics documentation.
+The data is sourced from Twitter/X and is license-restricted, so tweet-level data is not redistributed here; only the aggregate demographic-combinations table is included. See `03_raw_data/ethics_reference.md` for access terms and ethics documentation.
 
 ## License
 

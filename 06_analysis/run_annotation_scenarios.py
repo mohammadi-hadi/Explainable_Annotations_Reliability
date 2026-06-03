@@ -17,8 +17,8 @@ Companion code for Chapter 5 of the PhD thesis
 "Let Me Explain! Explainable NLP for Understanding Large Language Models".
 The prompt templates are also in 06_analysis/prompts.py.
 
-Set OPENAI_API_KEY before running. The SemEval-2023 EDOS / LeWiDi data is
-license-restricted -- see 03_raw_data/ethics_reference.md for access terms.
+Set OPENAI_API_KEY before running. The EXIST 2024 data is license-restricted
+(sourced from Twitter/X) -- see 03_raw_data/ethics_reference.md for access terms.
 """
 import os
 import re
@@ -41,7 +41,7 @@ random.seed(SEED)
 MAX_LEN = 256
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Demographic personas derived from the EDOS annotator demographics.
+# Demographic personas derived from the EXIST 2024 annotator demographics.
 personas = {
     "Persona A": "You are a female aged 18-22, of White or Caucasian ethnicity, "
                  "with a Bachelor's degree, living in Europe.",
@@ -197,7 +197,7 @@ def run_scenarios(val_df, important_tokens_set, text_col="tweet", label_col="lab
 
 if __name__ == "__main__":
     # Expected flow (data + a fine-tuned classifier are provided by the user):
-    #   1. load the EDOS/LeWiDi split into a DataFrame `val_df` with `tweet`/`label`
+    #   1. load the EXIST 2024 split into a DataFrame `val_df` with `tweet`/`label`
     #   2. load a fine-tuned sexism classifier `model` + `tokenizer`
     #   3. tokens, _, ir, _ = compute_shap_values(model, tokenizer, texts, class_idx=1, lang="en")
     #   4. important = select_top_tokens(tokens, ir, threshold=0.95)

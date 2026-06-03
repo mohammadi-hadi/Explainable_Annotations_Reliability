@@ -1,0 +1,17 @@
+# R packages required by the statistical-analysis scripts.
+# Install with, e.g.:
+#   install.packages(c("tidyverse","lme4","lmerTest","sjPlot","sjstats",
+#                      "performance","caret","car","pROC","irr","forcats"))
+#
+# Tested with R >= 4.2.
+tidyverse      # data manipulation / ggplot2
+lme4           # glmer() mixed-effects logistic regression
+lmerTest       # p-values for mixed-effects terms
+sjPlot         # model coefficient / random-effect plots
+sjstats        # intraclass correlation coefficient (ICC)
+performance    # icc(), model diagnostics
+caret          # createDataPartition(), confusionMatrix()
+car            # qqPlot(), residual diagnostics
+pROC           # ROC curves and AUC
+irr            # Fleiss' kappa (kappam.fleiss)
+forcats        # factor-level handling

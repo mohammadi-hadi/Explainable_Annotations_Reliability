@@ -1,35 +1,27 @@
 # Data Ethics Reference - Chapter 5
 
-## Data Sources
+## Data Source
 
-### SemEval-2023 Task 10: Explainable Detection of Online Sexism (EDOS)
-- **Provider**: SemEval-2023 organizers
-- **Task**: Explainable Detection of Online Sexism
-- **Access**: Through shared task registration
-- **URL**: https://codalab.lisn.upsaclay.fr/competitions/7124
-
-### SemEval-2023 Task 11: Learning with Disagreements (LeWiDi)
-- **Provider**: SemEval-2023 organizers
-- **Task**: Learning with Disagreements
-- **Access**: Through shared task registration
-- **URL**: https://le-wi-di.github.io/
+### EXIST 2024: sEXism Identification in Social neTworks
+- **Provider**: EXIST 2024 shared-task organizers (Plaza et al., 2024)
+- **Task**: Sexism detection in tweets (we use Task 1, binary classification)
+- **Content**: 6,920 training tweets in English and Spanish (3,260 English, 3,660 Spanish), sourced from Twitter/X
+- **Annotators**: each tweet labelled by six annotators who reported demographic information (gender, age, ethnicity, education, country)
+- **Access**: through shared-task registration
+- **URL**: https://nlp.uned.es/exist2024/
 
 ## Ethics Considerations
 
-- Data collected under shared task ethical guidelines
-- Used for research purposes as permitted by task terms
-- Results presented at aggregate level
-- No individual user data or identifiable information retained
-
-## Original Study Ethics
-
-SemEval-2023 datasets were created under the ethical guidelines of the organizing institutions. The EDOS dataset was developed following ethical protocols for handling potentially harmful content. The LeWiDi dataset follows established guidelines for aggregated annotation data.
+- Data collected under the shared task's ethical guidelines
+- Used for research purposes as permitted by the task terms
+- Analysed at the aggregate level (e.g. demographic combinations)
+- No individual user data or identifiable annotator information is retained
 
 ## Usage in This Study
 
-This study uses the SemEval-2023 datasets to evaluate:
+This study uses the EXIST 2024 dataset to evaluate:
+- how annotator demographics relate to labelling (a Generalized Linear Mixed Model)
 - LLM annotation reliability compared to human annotators
-- Demographic bias patterns in annotation tasks
-- Model explanation effectiveness
+- model explanation effectiveness (SHAP)
 
-All usage complies with the original shared task terms and conditions.
+All usage complies with the original shared-task terms and conditions. Because the data is sourced from Twitter/X and is license-restricted, tweet-level data is not redistributed in this archive.

@@ -1,0 +1,57 @@
+combination_id,sex,age,ethnicity,study_level,region,n_annotators_es,n_annotators_en
+1,F,18-22,Black,Bachelor,Africa,0,4
+2,F,18-22,Black,High school,Africa,0,3
+3,F,18-22,Latino,Bachelor,America,19,1
+4,F,18-22,Latino,High school,America,15,4
+5,F,18-22,Latino,High school,Europe,1,1
+6,F,18-22,White,Bachelor,America,2,0
+7,F,18-22,White,Bachelor,Europe,15,18
+8,F,18-22,White,High school,Europe,7,25
+9,F,23-45,Black,Bachelor,Africa,0,9
+10,F,23-45,Black,High school,Africa,0,2
+11,F,23-45,Latino,Bachelor,America,34,0
+12,F,23-45,Latino,High school,America,6,0
+13,F,23-45,Latino,Master,America,2,0
+14,F,23-45,White,Bachelor,America,1,1
+15,F,23-45,White,Bachelor,Europe,7,20
+16,F,23-45,White,High school,Europe,1,3
+17,F,23-45,White,Master,Europe,9,14
+18,F,46+,Black,Bachelor,Africa,0,4
+19,F,46+,Latino,Bachelor,America,12,0
+20,F,46+,Latino,Bachelor,Europe,3,0
+21,F,46+,Latino,High school,America,2,1
+22,F,46+,Latino,Master,America,6,1
+23,F,46+,White,Bachelor,America,3,2
+24,F,46+,White,Bachelor,Europe,11,9
+25,F,46+,White,High school,Africa,0,3
+26,F,46+,White,High school,America,2,2
+27,F,46+,White,High school,Europe,4,16
+28,F,46+,White,Master,America,2,0
+29,F,46+,White,Master,Europe,7,6
+30,M,18-22,Black,Bachelor,Africa,0,2
+31,M,18-22,Black,High school,Africa,0,2
+32,M,18-22,Latino,Bachelor,America,10,2
+33,M,18-22,Latino,Bachelor,Europe,1,2
+34,M,18-22,Latino,High school,America,17,7
+35,M,18-22,Latino,High school,Europe,3,2
+36,M,18-22,Latino,Master,Europe,2,0
+37,M,18-22,White,Bachelor,Europe,17,11
+38,M,18-22,White,High school,Europe,11,25
+39,M,18-22,White,Master,Europe,0,3
+40,M,23-45,Black,Bachelor,Africa,0,7
+41,M,23-45,Black,Master,Africa,0,2
+42,M,23-45,Latino,Bachelor,America,8,5
+43,M,23-45,Latino,Bachelor,Europe,1,2
+44,M,23-45,Latino,Master,America,2,0
+45,M,23-45,Latino,Master,Europe,2,0
+46,M,23-45,White,Bachelor,Europe,24,10
+47,M,23-45,White,High school,Europe,4,10
+48,M,23-45,White,Master,Europe,18,15
+49,M,46+,Latino,Bachelor,America,8,3
+50,M,46+,Latino,Master,America,2,0
+51,M,46+,White,Bachelor,Africa,0,2
+52,M,46+,White,Bachelor,America,5,5
+53,M,46+,White,Bachelor,Europe,21,14
+54,M,46+,White,High school,America,0,2
+55,M,46+,White,High school,Europe,12,15
+56,M,46+,White,Master,Europe,8,5
