@@ -3,7 +3,7 @@
 # Benefits of Explainable NLP in the Annotation Process
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20091840.svg)](https://doi.org/10.5281/zenodo.20091840)
-[![GeBNLP @ ACL 2025](https://img.shields.io/badge/GeBNLP%20%40%20ACL%202025-blue.svg)](https://doi.org/10.18653/v1/2025.gebnlp-1.9)
+[![DOI](https://img.shields.io/badge/DOI-10.18653%2Fv1%2F2025.gebnlp--1.9-blue.svg)](https://doi.org/10.18653/v1/2025.gebnlp-1.9)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 *Comparing content-driven SHAP explanations with demographic persona-prompting for LLM annotation.*
@@ -60,7 +60,10 @@ If you use this code or data, please cite **both** the paper and this code archi
 
 This repository accompanies the GeBNLP 2025 paper on assessing the reliability of LLM annotations under demographic bias. Using the EXIST 2024 sexism-detection dataset (English and Spanish tweets), it quantifies how annotator demographics relate to labelling with a Generalized Linear Mixed Model, compares LLM-generated annotations with human annotations under several persona-prompting scenarios, and uses SHAP to attribute label decisions to specific text spans.
 
-![Model Structure](06_analysis/reports/figures/model.jpg)
+<div align="center">
+<img src="06_analysis/reports/figures/model.jpg" alt="Model structure" width="700"/>
+<br><i>Structure of the mixed-effects annotation model</i>
+</div>
 
 ## Key Contributions
 
@@ -69,6 +72,41 @@ This repository accompanies the GeBNLP 2025 paper on assessing the reliability o
 - Investigation of demographic bias in annotation tasks
 - Framework for assessing model explanations in annotation contexts
 - Evaluation on the EXIST 2024 sexism-detection dataset (English and Spanish)
+
+## Results
+
+Headline numbers reproduced by the R scripts in [`06_analysis/statistical_models/`](06_analysis/statistical_models/):
+
+| Metric | Mixed-effects GLMM | Flat logistic baseline |
+|--------|--------------------|------------------------|
+| Accuracy | **73.73%** | 48.76% |
+| F1 | **75.77%** | 45.09% |
+
+- Demographic variables explain **~8%** of the variance in labelling; tweet content dominates (ICC ≈ 92.3%)
+- Agreement tests: ethnicity is associated with annotator agreement (p ≈ 0.012); study level is not (p ≈ 0.623); region is borderline (p ≈ 0.065)
+
+See [`06_analysis/statistical_models/README.md`](06_analysis/statistical_models/README.md) for the full model specification, variance components, and odds ratios.
+
+## Quick Start
+
+```bash
+git clone https://github.com/mohammadi-hadi/Explainable_Annotations_Reliability.git
+cd Explainable_Annotations_Reliability
+
+# Python: SHAP-guided, persona-prompted annotation scenarios (needs OPENAI_API_KEY)
+pip install -r 06_analysis/requirements.txt
+python 06_analysis/run_annotation_scenarios.py
+```
+
+```r
+# R: mixed-effects analysis (packages listed in 06_analysis/statistical_models/R_requirements.txt)
+install.packages(c("tidyverse","lme4","lmerTest","sjPlot","sjstats",
+                   "performance","caret","car","pROC","irr","forcats"))
+# then, from 06_analysis/statistical_models/:
+# Rscript glmm_demographic_effects_bilingual.R
+```
+
+> The scripts require the license-restricted EXIST 2024 data (not redistributed) — see [Data](#data) below.
 
 ## Repository Structure
 
@@ -103,13 +141,20 @@ Explainable_Annotations_Reliability/
             └── model.pdf
 ```
 
-## Data Sources
+## Data
 
 This study uses the **EXIST 2024** shared-task dataset (Plaza et al., 2024): 6,920 English and Spanish tweets, each annotated by six individuals who reported their demographics.
 
 - **EXIST 2024**: sEXism Identification in Social neTworks — https://nlp.uned.es/exist2024/
 
 The data is sourced from Twitter/X and is license-restricted, so tweet-level data is not redistributed here; only the aggregate demographic-combinations table is included. See `03_raw_data/ethics_reference.md` for access terms and ethics documentation.
+
+## Related Work
+
+- [ACL2025](https://github.com/mohammadi-hadi/ACL2025) — project page for this paper
+- [Explainable-Sexism-Detection](https://github.com/mohammadi-hadi/Explainable-Sexism-Detection) — explainability-focused sexism-detection pipeline
+- [Exist-2023](https://github.com/mohammadi-hadi/Exist-2023) — EXIST 2023 shared-task participation on sexism identification
+- [xnlp-survey](https://github.com/mohammadi-hadi/xnlp-survey) — survey of explainable NLP across domains, grounding the same thesis
 
 ## License
 
