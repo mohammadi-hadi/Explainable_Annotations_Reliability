@@ -14,7 +14,7 @@
 
 |                  |                                                                          |
 | ---------------- | ------------------------------------------------------------------------ |
-| **Title**        | Assessing the Reliability of LLM Annotations in the Context of Demographic Bias and Model Explanation |
+| **Title**        | Assessing the Reliability of LLMs Annotations in the Context of Demographic Bias and Model Explanation |
 | **Authors**      | Hadi Mohammadi, Tina Shahedi, Pablo Mosteiro, Massimo Poesio, Robert A. Bagheri, Anastasia Giachanou |
 | **Affiliation**  | Utrecht University, The Netherlands |
 | **Venue**        | Workshop on Gender Bias in Natural Language Processing (GeBNLP), ACL 2025, pp. 92--104 |
@@ -36,7 +36,7 @@ If you use this code or data, please cite **both** the paper and this code archi
 
 ```bibtex
 @inproceedings{mohammadi2025explainable,
-  title         = {Assessing the Reliability of LLM Annotations in the Context of Demographic Bias and Model Explanation},
+  title         = {Assessing the Reliability of LLMs Annotations in the Context of Demographic Bias and Model Explanation},
   author        = {Mohammadi, Hadi and Shahedi, Tina and Mosteiro, Pablo and Poesio, Massimo and Bagheri, Robert A. and Giachanou, Anastasia},
   year          = {2025},
   booktitle     = {Workshop on Gender Bias in Natural Language Processing (GeBNLP), ACL 2025},
