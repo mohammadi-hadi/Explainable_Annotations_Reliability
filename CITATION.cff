@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite both the paper and this software archive."
-title: "Assessing the Reliability of LLM Annotations in the Context of Demographic Bias and Model Explanation"
+title: "Assessing the Reliability of LLMs Annotations in the Context of Demographic Bias and Model Explanation"
 type: software
 version: "v1.0-thesis"
 date-released: "2026-05-09"
@@ -50,7 +50,7 @@ abstract: >-
   persona prompting.
 preferred-citation:
   type: conference-paper
-  title: "Assessing the Reliability of LLM Annotations in the Context of Demographic Bias and Model Explanation"
+  title: "Assessing the Reliability of LLMs Annotations in the Context of Demographic Bias and Model Explanation"
   year: 2025
   conference:
     name: "Workshop on Gender Bias in Natural Language Processing (GeBNLP), ACL 2025"
