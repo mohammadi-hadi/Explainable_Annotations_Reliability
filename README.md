@@ -46,7 +46,7 @@ If you use this code or data, please cite **both** the paper and this code archi
 
 @software{mohammadi_explainable_annotations_reliability_2026,
   author    = {Mohammadi, Hadi and Shahedi, Tina and Mosteiro, Pablo and Poesio, Massimo and Bagheri, Robert A. and Giachanou, Anastasia},
-  title     = {Benefits of Explainable NLP in the Annotation Process},
+  title     = {Assessing the Reliability of LLM Annotations in the Context of Demographic Bias and Model Explanation},
   year      = {2026},
   publisher = {Zenodo},
   version   = {v1.0-thesis},
