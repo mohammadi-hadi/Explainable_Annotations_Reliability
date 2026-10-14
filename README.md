@@ -19,6 +19,7 @@
 | **Affiliation**  | Utrecht University, The Netherlands |
 | **Venue**        | Workshop on Gender Bias in Natural Language Processing (GeBNLP), ACL 2025, pp. 92--104 |
 | **DOI (paper)**  | [10.18653/v1/2025.gebnlp-1.9](https://doi.org/10.18653/v1/2025.gebnlp-1.9) |
+| **arXiv**        | [2507.13138](https://arxiv.org/abs/2507.13138) |
 | **Code archive** | [10.5281/zenodo.20091840](https://doi.org/10.5281/zenodo.20091840) (this repository, snapshot v1.0-thesis) |
 
 > *Hadi Mohammadi and Tina Shahedi contributed equally to this work.*
